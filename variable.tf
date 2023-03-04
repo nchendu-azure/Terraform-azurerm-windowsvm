@@ -1,8 +1,7 @@
 variable "resoure_group_name" {
   description = "Resource Group Name"
   type        = string
-  default     = "ODL-azure-858691"
-}
+  }
 
 variable "location" {
   type    = string
