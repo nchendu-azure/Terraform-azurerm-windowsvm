@@ -1,7 +1,7 @@
 variable "resoure_group_name" {
   description = "Resource Group Name"
   type        = string
-  default     = "ODL-azure-858691"
+  #default     = "ODL-azure-878181"
 }
 
 variable "location" {
@@ -11,20 +11,19 @@ variable "location" {
 
 variable "vmname" {
   type = string
-}
+  }
 
-variable "size" {
-  type = string
-
-}
+  variable "size" {
+    type = string
+    
+  }
 variable "uname" {
-  type = string
-}
+  type = string  
+  }
 
 variable "pword" {
   type = string
-
-}
+  }
 
 
 
